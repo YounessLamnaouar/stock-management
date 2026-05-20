@@ -35,7 +35,7 @@ export default function Products() {
   const [products, setProducts] = useState(mockProducts);
   const [searchTerm, setSearchTerm] = useState("");
   const [categoryFilter, setCategoryFilter] = useState("Toutes");
-  const [statusFilter, setStatusFilter] = useState("Tous");
+  // const [statusFilter, setStatusFilter] = useState("Tous");
 
   const [isAddOpen, setIsAddOpen] = useState(false);
   const [isViewOpen, setIsViewOpen] = useState(false);
@@ -47,7 +47,7 @@ export default function Products() {
   });
 
   const categories = ["Toutes", ...new Set(mockProducts.map(p => p.category))];
-  const statuses = ["Tous", "Actif", "Stock Faible", "En rupture"];
+  // const statuses = ["Tous", "Actif", "Stock Faible", "En rupture"];
 
   const filteredProducts = products.filter(p => {
     const matchSearch = p.name.toLowerCase().includes(searchTerm.toLowerCase()) || 

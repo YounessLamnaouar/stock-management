@@ -28,7 +28,7 @@ const navItems = [
   { title: "Mouvements", path: "/mouvements", icon: ArrowRightLeft },
   { title: "Traçabilité", path: "/tracabilite", icon: History },
   { title: "Alertes", path: "/alertes", icon: BellRing },
-  { title: "Agents", path: "/agents", icon: Users },
+  { title: "Utilisateurs", path: "/agents", icon: Users },
   { title: "Paramètres", path: "/parametres", icon: Settings },
 ];
 

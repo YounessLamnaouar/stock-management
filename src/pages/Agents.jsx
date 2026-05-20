@@ -81,7 +81,7 @@ export default function Agents() {
     <div className="space-y-6 relative">
       <div className="flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between">
         <div>
-          <h2 className="text-3xl font-bold tracking-tight text-primary">Agents & Access</h2>
+          <h2 className="text-3xl font-bold tracking-tight text-primary">Utilisateurs & Access</h2>
           <p className="text-foreground/60">Gérez les utilisateurs, rôles et permissions du système.</p>
         </div>
         <Button className="gap-2" onClick={() => setIsAddModalOpen(true)}>
